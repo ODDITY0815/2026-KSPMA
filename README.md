@@ -45,12 +45,14 @@ rmarkdown::render(
 
 집단 비교는 ML LMM의 집단효과 LRT입니다. BPC는 점수, WPC는 자연로그 분산을 검정하며 BH 보정은 수준별로 적용합니다. 사후비교는 같은 LMM의 Wald z와 성분 내 세 쌍 Holm 보정입니다. 전체효과 q<.05인 성분에만 브라켓을 표시합니다. 개별 대비 CI는 보정 전 95% Wald 구간입니다. On−Off 대응 t검정을 별도 민감도 분석으로 출력합니다.
 
+
 $$
 Y_{ij} = \beta_0
 + \beta_1 D_{\mathrm{On},ij}
 + \beta_2 D_{\mathrm{Off},ij}
 + u_i + \epsilon_{ij}
 $$
+
 
 - $\beta_0$: 정상 대조군(Control)의 평균
 - $\beta_1$: ADHD-On과 Control의 평균 차이
