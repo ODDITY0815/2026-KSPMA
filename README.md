@@ -47,10 +47,7 @@ rmarkdown::render(
 
 
 $$
-Y_{ij} = \beta_0
-+ \beta_1 D_{\mathrm{On},ij}
-+ \beta_2 D_{\mathrm{Off},ij}
-+ u_i + \epsilon_{ij}
+Y_{ij} = \beta_0 + \beta_1 D_{\mathrm{On},ij} + \beta_2 D_{\mathrm{Off},ij} + u_i + \epsilon_{ij}
 $$
 
 
